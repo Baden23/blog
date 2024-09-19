@@ -17,6 +17,16 @@
     <% end %>
   </div>
   
+  <div class="field">
+    <%= form.label :updated_at %>
+    <%= form.datetime_select :updated_at %>
+  </div>
+
+  <div class="field">
+      <%= form.label :updated_reason %>
+      <%= form.text_field :updated_reason %>
+  </div>
+  
   <div class='button_flexbox'>
     <div>
       <%= form.submit submit_button_text(@post), class: 'button' %>

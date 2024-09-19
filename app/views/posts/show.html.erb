@@ -1,2 +1,8 @@
 <h1><%= @post.title %></h1>
 <p><%= @post.body %></p>
+<% if @post.updated_reason.present? %>
+  <p>
+    <strong>UPDATED at:</strong> <%= @post.updated_at.strftime("%B %d, %Y %H:%M") %><br>
+    <%= @post.updated_reason %>
+   <% end %>
+  </p>
