@@ -314,6 +314,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  activestorage (~> 7.2)
   bootsnap
   capybara
   debug

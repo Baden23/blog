@@ -74,3 +74,4 @@ end
 gem 'friendly_id', '~> 5.5.0'
 gem 'rubocop-rails', '~> 2.26'
 gem 'ostruct'
+gem "activestorage", "~> 7.2"
